@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Секреты и локальные данные
+.env
+.env.*
+bot_token.txt
+
+# Данные игроков (создаётся ботом, хранится локально)
+game_data.json
+game_data.json.lock
+game_data.json.tmp
+game_data.json.corrupt-*
+
+# Логи
+*.log
